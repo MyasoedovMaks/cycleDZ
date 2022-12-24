@@ -9,7 +9,7 @@ class SQRServiceTest {
 
     @Test
 
-    public void calcTestWishFewMatches () {
+    public void calcTestWishFewMatches() {
         SQRService service = new SQRService();
 
         int actual = service.calcSqrtService(200, 300);
